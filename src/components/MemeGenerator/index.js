@@ -58,7 +58,7 @@ class MemeGenerator extends Component {
     activeFontSizeId: '',
   }
 
-  onChangeBackgroundImage = event => {
+  onChangeBackgroundImage = event => { 
     this.setState({backgroundImageUrlInput: event.target.value})
   }
 
